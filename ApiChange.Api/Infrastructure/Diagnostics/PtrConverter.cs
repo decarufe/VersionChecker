@@ -46,7 +46,6 @@ namespace ApiChange.Infrastructure
         /// </summary>
         /// <param name="pObj">Pointer to managed object</param>
         /// <returns>Object reference</returns>
-        /// <exception cref="ExecutionEngineException">When the pointer does not point to valid CLR object. This can happen when the GC decides to move object references to new memory locations. 
         /// Beware this possibility exists all the time (although the probability should be very low)!</exception>
         public T ConvertFromIntPtr(IntPtr pObj)
         {

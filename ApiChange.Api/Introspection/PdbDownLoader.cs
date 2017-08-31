@@ -153,7 +153,7 @@ namespace ApiChange.Api.Introspection
                 {
                     dispatcher.Dispose();
                 }
-                catch (AggregateException ex)
+                catch (Infrastructure.AggregateException ex)
                 {
                     t.Error(ex, "Got error during pdb download");
                     lret = false;

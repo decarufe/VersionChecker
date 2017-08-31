@@ -30,7 +30,6 @@ namespace ApiChange.Infrastructure
         {
             if (!(ex is NullReferenceException) && !(ex is StackOverflowException) &&
                  !(ex is OutOfMemoryException) && !(ex is ThreadAbortException) &&
-                 !(ex is ExecutionEngineException) && !(ex is IndexOutOfRangeException) &&
                  !(ex is AccessViolationException)
                )
             {
