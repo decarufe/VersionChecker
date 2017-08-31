@@ -116,13 +116,13 @@
     <Compile Include="Infrastructure\Diagnostics\TraceFilterNone.cs" />
     <Compile Include="Infrastructure\Diagnostics\TracerConfig.cs" />
     <Compile Include="Infrastructure\Diagnostics\TraceFilter.cs" />
-    <Compile Include="Infrastructure\exceptionhelper.cs" />
+    <Compile Include="Infrastructure\ExceptionHelper.cs" />
     <Compile Include="Infrastructure\AsyncWriter.cs" />
     <Compile Include="Infrastructure\BlockingQueue.cs" />
     <Compile Include="Infrastructure\BlockingQueueAggregator.cs" />
     <Compile Include="Infrastructure\DirectorySearcherAsync.cs" />
     <Compile Include="Infrastructure\FileNameComparer.cs" />
-    <Compile Include="Infrastructure\filequery.cs" />
+    <Compile Include="Infrastructure\FileQuery.cs" />
     <Compile Include="Infrastructure\Diagnostics\Tracer.cs" />
     <Compile Include="Infrastructure\Diagnostics\TypeHashes.cs" />
     <Compile Include="Infrastructure\WorkItemDispatcher.cs" />
@@ -191,7 +191,7 @@
     <Compile Include="Scripting\Commands\QueryCommandBase.cs" />
     <Compile Include="Scripting\Commands\ShowRebuildTargetsCommand.cs" />
     <Compile Include="Scripting\Commands\DiffAssembliesCommand.cs" />
-    <Compile Include="Scripting\Commands\DowndLoadPdbsCommand.cs" />
+    <Compile Include="Scripting\Commands\DowndloadPdbsCommand.cs" />
     <Compile Include="Scripting\Commands\IComandLineAction.cs" />
     <Compile Include="Scripting\Commands\WhoImplementsInterfaceCommand.cs" />
     <Compile Include="Scripting\Commands\WhoReferencesCommand.cs" />
