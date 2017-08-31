@@ -2,4 +2,4 @@ language: csharp
 solution: VersionChecker.sln
 script:
   - msbuild VersionChecker.sln
-  
+os: windows
