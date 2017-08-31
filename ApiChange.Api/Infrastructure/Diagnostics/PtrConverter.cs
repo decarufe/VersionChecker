@@ -46,7 +46,6 @@ namespace ApiChange.Infrastructure
         /// </summary>
         /// <param name="pObj">Pointer to managed object</param>
         /// <returns>Object reference</returns>
-        /// Beware this possibility exists all the time (although the probability should be very low)!</exception>
         public T ConvertFromIntPtr(IntPtr pObj)
         {
             return myConverter(pObj);
